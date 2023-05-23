@@ -14,9 +14,9 @@ public class Program {
 		String expressao = sc.nextLine();
 
 		if (calc.verificarExpressao(expressao)) {
-			System.out.println("Correta!");
+			System.out.println("Delimitadores balanceados.");
 		} else {
-			System.out.println("Incorreta!");
+			System.out.println("Delimitadores desbalanceados.");
 		}
 
 		sc.close();
